@@ -1,9 +1,9 @@
-package conbination;
+package combination;
 
-public class Conbination_lib {
+public class Combination_lib {
 	private int s, r;
 	
-	public Conbination_lib(int s, int r) {
+	public Combination_lib(int s, int r) {
 		this.s = s;
 		this.r = r;
 	}

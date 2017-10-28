@@ -1,10 +1,10 @@
-package conbination;
+package combination;
 
 import java.util.Scanner;
 
-import conbination.Conbination_lib;
+import combination.Combination_lib;
 
-public class Conbination_main {
+public class Combination_main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class Conbination_main {
 		int r = Integer.parseInt(scan.next());
 	
 	
-		Conbination_lib clib = new Conbination_lib(s,r);
+		Combination_lib clib = new Combination_lib(s,r);
 		System.out.println(s+"!="+clib.getFactorial(s));
 		System.out.println(s+"C"+r+"="+clib.getFactorial(s)/(clib.getFactorial(r)*clib.getFactorial(s-r)));
 	}
